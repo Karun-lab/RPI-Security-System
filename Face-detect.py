@@ -1,12 +1,12 @@
 import numpy as np
 import cv2
 
-print("Hello")
+
 face_cascade = cv2.CascadeClassifier('cascade/data/haarcascade_frontalface_alt2.xml')
 eye_cascade = cv2.CascadeClassifier('cascade/data/haarcascade_eye.xml')
 
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 while(True):
     # Capture frame-by-frame
